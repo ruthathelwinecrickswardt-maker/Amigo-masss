@@ -11,7 +11,7 @@ const pino = require("pino");
 const fs = require("fs");
 
 // 🔑 TELEGRAM TOKEN
-const TELEGRAM_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN";
+const TELEGRAM_TOKEN = "8785724584:AAFjUIcHDX3mxZofXRww09zd0L5-PzFM_2c";
 
 // 🤖 TELEGRAM BOT
 const bot = new TelegramBot(TELEGRAM_TOKEN, { polling: true });
